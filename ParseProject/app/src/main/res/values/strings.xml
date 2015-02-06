@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParseProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="title_activity_relative_page">RelativePage</string>
+    <string name="PARSE_APPLICATION_ID">kia8hxKPAggdGJMs83Whoa7MSfs32o4fYVKVJVVO</string>
+    <string name="PARSE_CLIENT_KEY">K9Sl41y8WQGTQtufKIbfYjZVv2LfVqC5Wa7xxPZN</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

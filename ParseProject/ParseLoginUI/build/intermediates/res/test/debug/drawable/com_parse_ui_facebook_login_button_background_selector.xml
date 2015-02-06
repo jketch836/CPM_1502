@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@color/com_parse_ui_facebook_login_button_push"/>
+    <item android:state_focused="true" android:drawable="@color/com_parse_ui_facebook_login_button_focus"/>
+    <item android:drawable="@color/com_parse_ui_facebook_login_button"/>
+
+</selector>
+<!-- From: file:/Users/jketch/Documents/Full_Sail/18%20Cross-Platform%20Mobile%20Development%20(MDV4510)/Android%20Project/ParseProject/ParseLoginUI/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml --><!-- From: file:/Users/jketch/Documents/Full_Sail/18%20Cross-Platform%20Mobile%20Development%20(MDV4510)/Android%20Project/ParseProject/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml -->
