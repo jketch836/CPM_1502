@@ -23,6 +23,7 @@ public class ParseQueryClass extends ParseQueryAdapter<ParseObject> {
 
         super(context, new ParseQueryAdapter.QueryFactory<ParseObject>() {
             public ParseQuery create() {
+                
                 ParseQuery theQuery = new ParseQuery("PersonData");
                 theQuery.whereEqualTo("user", ParseUser.getCurrentUser().getUsername());
                 return theQuery;

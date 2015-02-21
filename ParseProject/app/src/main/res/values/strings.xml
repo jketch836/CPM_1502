@@ -9,5 +9,6 @@
     <string name="PARSE_APPLICATION_ID">kia8hxKPAggdGJMs83Whoa7MSfs32o4fYVKVJVVO</string>
     <string name="PARSE_CLIENT_KEY">K9Sl41y8WQGTQtufKIbfYjZVv2LfVqC5Wa7xxPZN</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_update">UpdateActivity</string>
 
 </resources>
