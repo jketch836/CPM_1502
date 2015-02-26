@@ -33,6 +33,7 @@
 		FF7738121A87CBCD008DD9EE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF77380D1A87CBCD008DD9EE /* ParseCrashReporting.framework */; };
 		FF7738131A87CBCD008DD9EE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF77380E1A87CBCD008DD9EE /* ParseFacebookUtils.framework */; };
 		FF7738141A87CBCD008DD9EE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF77380F1A87CBCD008DD9EE /* ParseUI.framework */; };
+		FFE595FC1A9A5FC100D16D9A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE595FB1A9A5FC100D16D9A /* Reachability.m */; };
 		FFF0E2B71A8950A200B3BEB8 /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0E2B41A8950A200B3BEB8 /* JLToast.swift */; };
 		FFF0E2B81A8950A200B3BEB8 /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0E2B51A8950A200B3BEB8 /* JLToastCenter.swift */; };
 		FFF0E2B91A8950A200B3BEB8 /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0E2B61A8950A200B3BEB8 /* JLToastView.swift */; };
@@ -80,6 +81,8 @@
 		FF77380E1A87CBCD008DD9EE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		FF77380F1A87CBCD008DD9EE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		FF7738171A87CC88008DD9EE /* ParseProject_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseProject_iOS-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		FFE595FA1A9A5FC100D16D9A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FFE595FB1A9A5FC100D16D9A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		FFF0E2B41A8950A200B3BEB8 /* JLToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToast.swift; sourceTree = "<group>"; };
 		FFF0E2B51A8950A200B3BEB8 /* JLToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastCenter.swift; sourceTree = "<group>"; };
 		FFF0E2B61A8950A200B3BEB8 /* JLToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastView.swift; sourceTree = "<group>"; };
@@ -148,9 +151,6 @@
 				FF28D15D1A885C87008DBB5B /* ParseFunc.swift */,
 				FF7737D11A87CA92008DD9EE /* ViewController.swift */,
 				FF7737D31A87CA92008DD9EE /* Main.storyboard */,
-				FFF0E2B41A8950A200B3BEB8 /* JLToast.swift */,
-				FFF0E2B51A8950A200B3BEB8 /* JLToastCenter.swift */,
-				FFF0E2B61A8950A200B3BEB8 /* JLToastView.swift */,
 				FF7738171A87CC88008DD9EE /* ParseProject_iOS-Bridging-Header.h */,
 				FF7737D61A87CA93008DD9EE /* Images.xcassets */,
 				FF7737D81A87CA93008DD9EE /* LaunchScreen.xib */,
@@ -162,6 +162,11 @@
 		FF7737CD1A87CA92008DD9EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFF0E2B41A8950A200B3BEB8 /* JLToast.swift */,
+				FFF0E2B51A8950A200B3BEB8 /* JLToastCenter.swift */,
+				FFF0E2B61A8950A200B3BEB8 /* JLToastView.swift */,
+				FFE595FA1A9A5FC100D16D9A /* Reachability.h */,
+				FFE595FB1A9A5FC100D16D9A /* Reachability.m */,
 				FF7737CE1A87CA92008DD9EE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -313,6 +318,7 @@
 				FFF0E2B71A8950A200B3BEB8 /* JLToast.swift in Sources */,
 				FFF0E2B91A8950A200B3BEB8 /* JLToastView.swift in Sources */,
 				FF7737D21A87CA92008DD9EE /* ViewController.swift in Sources */,
+				FFE595FC1A9A5FC100D16D9A /* Reachability.m in Sources */,
 				FFF0E2B81A8950A200B3BEB8 /* JLToastCenter.swift in Sources */,
 				FF7737D01A87CA92008DD9EE /* AppDelegate.swift in Sources */,
 				FF28D15E1A885C87008DBB5B /* ParseFunc.swift in Sources */,

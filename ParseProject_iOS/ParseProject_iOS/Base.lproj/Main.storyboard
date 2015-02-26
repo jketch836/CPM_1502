@@ -94,21 +94,6 @@
                                     <rect key="frame" x="256" y="28" width="105" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYr-NC-Q1U">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Enter">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="172" y="562" width="56" height="30"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="182" y="66" width="37" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="UploadToParse:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oVZ-h8-xxx"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncJ-xt-3CN">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Log Out">
@@ -135,6 +120,21 @@
                                     <rect key="frame" x="78" y="28" width="105" height="30"/>
                                 </variation>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYr-NC-Q1U">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="172" y="562" width="56" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="182" y="66" width="37" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="UploadToParse:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oVZ-h8-xxx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -143,9 +143,9 @@
                                 <exclude reference="Rmw-eB-7UI"/>
                                 <exclude reference="3Ml-zE-ChE"/>
                                 <exclude reference="jqS-qB-wRd"/>
-                                <exclude reference="DYr-NC-Q1U"/>
                                 <exclude reference="ncJ-xt-3CN"/>
                                 <exclude reference="oXU-Qq-CFl"/>
+                                <exclude reference="DYr-NC-Q1U"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -158,15 +158,16 @@
                                 <include reference="Rmw-eB-7UI"/>
                                 <include reference="3Ml-zE-ChE"/>
                                 <include reference="jqS-qB-wRd"/>
-                                <include reference="DYr-NC-Q1U"/>
                                 <include reference="ncJ-xt-3CN"/>
                                 <include reference="oXU-Qq-CFl"/>
+                                <include reference="DYr-NC-Q1U"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="ParseTable" destination="2Jk-E1-6wN" id="c3I-0A-1gf"/>
                         <outlet property="ageTextField" destination="jqS-qB-wRd" id="fhd-UP-zu4"/>
+                        <outlet property="enterButton" destination="DYr-NC-Q1U" id="GRD-yQ-hLj"/>
                         <outlet property="nameTextField" destination="oXU-Qq-CFl" id="P7S-pA-SFt"/>
                     </connections>
                 </viewController>
